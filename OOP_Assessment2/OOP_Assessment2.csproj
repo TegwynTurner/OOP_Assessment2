@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Git_Files\GitRepositories_1a.txt" />
+    <None Remove="Git_Files\GitRepositories_1b.txt" />
+    <None Remove="Git_Files\GitRepositories_2a.txt" />
+    <None Remove="Git_Files\GitRepositories_2b.txt" />
+    <None Remove="Git_Files\GitRepositories_3a.txt" />
+    <None Remove="Git_Files\GitRepositories_3b.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Git_Files\GitRepositories_1a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Git_Files\GitRepositories_1b.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Git_Files\GitRepositories_2a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Git_Files\GitRepositories_2b.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Git_Files\GitRepositories_3a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Git_Files\GitRepositories_3b.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
